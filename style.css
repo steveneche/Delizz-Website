@@ -92,6 +92,122 @@ img{
     border-top: solid rgb(255, 174, 0);
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
+
+
+
+/* Styling contact page for Delizz Supermarket */
+/* Author: Dar */
+
+/* Main heading for contact sections */
+.h2c {
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(255, 174, 0); /* Orange underline */
+}
+
+/* Text styling inside contact details section */
+.contact-details p {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+/* Common styles for the three main sections: contact-details, contact-form, and map */
+.contact-details,
+.contact-form,
+.map {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+/* Additional styling inside the contact-details section */
+.contact-details article {
+    background-color: white; /* Fixed typo: "whie" to "white" */
+}
+
+/* Container spacing */
+.container {
+    margin-top: 15px;
+}
+
+/* Container heading styling */
+.container h2 {
+    background-color: white;
+    color: black;
+}
+
+/* Paragraph spacing in container */
+.container p {
+    margin: 0 auto;
+}
+
+/* Highlighting strong tags in paragraph */
+.container p strong {
+    background-color: white;
+    color: black;
+}
+
+/* Styling headings inside form section */
+.formsec h2 {
+    background-color: white;
+    color: black;
+}
+
+/* Form layout and background */
+form {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Label styling inside form */
+form label {
+    display: inline-block; /* Changed to inline-block to avoid conflict with block */
+    font-weight: bold;
+    background-color: white;
+    padding: 1px;
+    margin-top: 15px;
+}
+
+/* Input and textarea styling */
+form input[type="text"],
+form input[type="email"],
+textarea {
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid rgb(255, 174, 0); /* Orange border */
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Contact form section padding */
+.contact-form {
+    padding: 20px;
+}
+
+/* Map heading styling */
+.map h2 {
+    background-color: white;
+    color: black;
+}
+
+/* Embedded map styling */
+.map iframe {
+    margin-top: 15px;
+    width: 100%;
+    height: 300px;
+}
+
 
